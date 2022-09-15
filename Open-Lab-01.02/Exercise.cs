@@ -1,12 +1,24 @@
-﻿using System;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Open_Lab_01._02
+namespace openlab2task
 {
-    public class Exercise
+    class Program
     {
-        public int Sum(int a, int b)
+        static void Main(string[] args)
         {
-            throw new NotImplementedException();
+
+            Console.Write("Napis cislo : ");
+            int mynum = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Napis dalsie  cislo : ");
+            int mynum2 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("vysledok je : ");
+            Console.Write(mynum + mynum2);
+            Console.ReadLine();
         }
     }
 }
