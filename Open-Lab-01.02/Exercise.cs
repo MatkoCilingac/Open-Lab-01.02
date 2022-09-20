@@ -1,14 +1,14 @@
 using System;
 
 
-namespace openlab2task
+namespace Open_Lab_01._02   
 {
-    public class Program
+    public class Exercise
     {
-        public int (int a, int b)
+        public int Sum(int a, int b)
         {
 
-            return (a +b)
+            return a + b ;
         }
     }
 }
